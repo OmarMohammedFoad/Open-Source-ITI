@@ -77,7 +77,7 @@ printf("question 2 \n");
 /*    int num,max,min;
     printf("please enter the numbers");
     scanf("%d", &num);
-    max = min = num;
+    max = min = num;12
     for (int i = 1; i < 5; i++){
     scanf("%d", &num);
 

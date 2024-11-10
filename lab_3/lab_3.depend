@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1730314112 source:d:\projects\c_tutorial_iti\lab_3\main.c
+1730314779 source:d:\projects\c_tutorial_iti\lab_3\main.c
 	<stdio.h>
 	<stdlib.h>
 	<windows.h>
