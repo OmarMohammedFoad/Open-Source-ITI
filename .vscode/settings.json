@@ -8,6 +8,7 @@
         "initializer_list": "cpp",
         "utility": "cpp",
         "vector": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "string.h": "c"
     }
 }

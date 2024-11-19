@@ -37,7 +37,7 @@ int main()
         {
             menu[index++] = key;
             x++;
-        }
+                }
 
         if (key == -32)
         {

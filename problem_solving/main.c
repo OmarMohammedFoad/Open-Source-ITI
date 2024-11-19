@@ -2,18 +2,26 @@
 #include <string>
 using namespace std;
 
-int strStr(string haystack, string needle)
-{
-    for (int i = 0; i < haystack.length(); i++)
-    {
-        if (haystack.substr(i, needle.length()) == needle)
-            return i;
-    }
-    return -1;
-}
+int maxNumber(int firstNumber, int secondNumber);
+
 int main()
 {
-    int x = strStr("mississippi", "issip");
-    printf("%d\n", x);
+
     return 0;
 }
+
+/**
+ * "dvdf"
+ * {-
+ *  d:1 ,2
+ *  v:1
+ *
+ * }
+ *
+ *
+ *
+"ckilbkd"
+"tmmzuxt"
+ *
+ *
+ */
