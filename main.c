@@ -1,76 +1,51 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
+
+struct Ex
+{
+    char *s;
+};
 
 int main()
 {
+    struct Ex *p;
+    p = (struct Ex *)
 
-int eval [3][4] = {{}};
-    int sum =0;
-    int avg =0;
+            p->s = (char *)malloc(sizeof(char[20]));
 
-    int totalSum[3] = {};
+    strcpy(p->s, "ABS");
 
-    int grade;
-        for(int row=0;row<3;row++){
-        printf("student number = %d \n",row);
-
-        for(int col=0;col<4;col++){
-
-
-            scanf("%d",&eval[row][col]);
-        }
-    }
-
-
-    printf("\n");
-
-/**
-row col sum
-0   0   0
-    1
-*/
-    for(int row=0;row<3;row++){
-            sum = 0;
-        for(int col=0;col<4;col++){
-            sum = sum + eval[row][col];
-        }
-
-        printf("the total for student=%d sum =%d \n",row,sum);
-    }
-
-
-
-
-    printf("\n");
-
-
-
-
-/*
- subject student sum
-    0     0       25
-    eval[ 0][0]
-        [0][1]
-
-*/
-
-
-for(int col=0;col<4;col++){
-            sum = 0;
-        for(int row=0;row<3;row++){
-            sum = sum +eval[row][col];
-        }
-
-        printf("the total for subject=%d avg =%d \n",col,sum/3);
-
-    }
-
-
-
-
-
-
-
-
+    printf("%s", p->s);
     return 0;
 }
+int res(int *n)
+{
+    int j = 2;
+    n = &j;
+    printf("%d\n", *n);
+}
+
+// int str_comp(char str1[], char str2[])
+// {
+//     int i = 0, j = 0;
+//     while (str1[i] != '\0' && str2[j] != '\0')
+//     {
+//         if (str1[i] == str2[j])
+//         {
+//             i++;
+//             j++;
+//         }
+//         else if (str1[i] > str2[j])
+//         {
+//             return 1;
+//         }
+//         else if (str1[i] < str2[j])
+//         {
+//             return -1;
+//         }
+//         else if (i - j == 0)
+//         {
+//             return 0;
+//         }
+//     }
+// }
